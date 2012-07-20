@@ -1,10 +1,9 @@
 package com.example.pageobjects;
 
-import static com.example.setup.SeleniumDriver.getDriver;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 /**
  * Page object representing github login page.
@@ -24,7 +23,12 @@ public class GitHubLoginPage extends GitHubPage<GitHubLoginPage> {
 	WebElement errorBox;
 
 	@Override
-	public String getUrl() {
+	protected ExpectedCondition getPageLoadCondition() {
+		return ExpectedConditions.visibilityOf(loginField);
+	}
+
+	@Override
+	public String getPageUrl() {
 		return "/login";
 	}
 
