@@ -1,4 +1,3 @@
-
 package com.example.pageobjects;
 
 import static com.example.setup.SeleniumDriver.getDriver;

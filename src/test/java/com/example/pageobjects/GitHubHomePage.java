@@ -1,10 +1,5 @@
-/**
- * Copyright 2011 Nokia Siemens Networks 
- */
 package com.example.pageobjects;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 

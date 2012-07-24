@@ -1,9 +1,4 @@
-/**
- * Copyright 2011 Nokia Siemens Networks 
- */
 package com.example.setup;
-
-import java.sql.Driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
