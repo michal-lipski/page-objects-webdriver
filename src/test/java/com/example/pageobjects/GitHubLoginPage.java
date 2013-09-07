@@ -19,7 +19,7 @@ public class GitHubLoginPage extends GitHubPage<GitHubLoginPage> {
 	@FindBy(name = "commit")
 	WebElement commitButton;
 
-	@FindBy(className = "error_box")
+	@FindBy(className = "flash-error")
 	WebElement errorBox;
 
 	@Override
