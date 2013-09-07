@@ -12,7 +12,7 @@ public class GitHubHomePage extends GitHubPage<GitHubHomePage> {
 
 	@Override
 	protected ExpectedCondition getPageLoadCondition() {
-		return ExpectedConditions.titleContains("GitHub · Social Coding");
+		return ExpectedConditions.titleContains("Sign in · GitHub");
 	}
 
 	@Override
