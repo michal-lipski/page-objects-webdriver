@@ -12,7 +12,7 @@ public class GitHubHomePage extends GitHubPage<GitHubHomePage> {
 
 	@Override
 	protected ExpectedCondition getPageLoadCondition() {
-		return ExpectedConditions.titleContains("GitHub · Build software better, together.");
+		return ExpectedConditions.titleContains("The world's leading software development platform · GitHub");
 	}
 
 	@Override
